@@ -7,11 +7,24 @@ body {
   
 }
 img {
-  width: 109px; /* Ajusta el tamaño según tus necesidades */
-  height: 100px; /* Ajusta el tamaño según tus necesidades */
-  border-radius: 50%; /* Si deseas darle forma circular a la imagen */
+  width: 124px;
+  height: 125px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
 
 .container {
   width: 80%;
@@ -22,6 +35,7 @@ img {
 header {
   background-color: #333;
   color: #fff;
+  text-align: center;
 }
 
 nav ul {
